@@ -1,9 +1,16 @@
 import brandImage from "../../assets/logo.png";
-const Brand = () => {
+const Brand = (props) => {
   return (
-    <a className="navbar-brand" href="#">
-      <img src={brandImage} alt="logo.MaiLanguageLab.1" className="iconImage" />
-    </a>
+    <div>
+      <a className="navbar-brand" href="#">
+        <img
+          src={brandImage}
+          alt="logo.MaiLanguageLab.1"
+          className="iconImage"
+        />
+      </a>
+      <p>{props.BrandName}</p>
+    </div>
   );
 };
 export default Brand;
