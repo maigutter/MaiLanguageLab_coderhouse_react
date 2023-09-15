@@ -1,7 +1,7 @@
-function PageTitle(props) {
+function PageTitle() {
   return (
     <div className="container">
-      <h1>{props.title}</h1>
+      <h1>Welcome to Mai Language Lab</h1>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-export const CartIcon = ({ color = "black" }) => (
+const CartIcon = ({ color = "black" }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -11,3 +11,5 @@ export const CartIcon = ({ color = "black" }) => (
     <circle cx="17.5" cy="19.5" r="1.5" />
   </svg>
 );
+
+export default CartIcon;

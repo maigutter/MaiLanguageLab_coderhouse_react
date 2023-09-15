@@ -1,4 +1,4 @@
-import Brand from "../Brand/Brand";
+import Brand from "./Brand";
 import CategoryItem from "./CategoryItem";
 import MenuButton from "./MenuButton";
 import CartContainer from "./Cart/CartContainer";
