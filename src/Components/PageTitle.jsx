@@ -1,9 +1,9 @@
-function PageTitle() {
+const PageTitle = ({ title = "Welcome" }) => {
   return (
-    <div className="container">
-      <h1>Welcome to Mai Language Lab</h1>
+    <div className="container pageTitle">
+      <h2>{title}</h2>
     </div>
   );
-}
+};
 
 export default PageTitle;
