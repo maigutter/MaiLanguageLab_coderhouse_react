@@ -45,3 +45,7 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.brandColorPink {
+  background-color: #c5a9e9;
+}
