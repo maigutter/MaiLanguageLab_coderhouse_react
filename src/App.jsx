@@ -4,10 +4,10 @@ import PageTitle from "./Components/PageTitle";
 
 function App() {
   return (
-    <>
+    <div className="app">
       <Navbar />
       <PageTitle />
-    </>
+    </div>
   );
 }
 
