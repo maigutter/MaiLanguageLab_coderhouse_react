@@ -1,6 +1,6 @@
 function ItemListContainer(props) {
   return (
-    <div className="container">
+    <div className="container center">
       <p>{props.greeting}</p>
     </div>
   );
