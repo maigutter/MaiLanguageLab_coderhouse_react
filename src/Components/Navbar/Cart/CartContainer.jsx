@@ -1,5 +1,5 @@
-import { CartIcon } from "../CartIcon";
-import CartItems from "../CartItems";
+import CartIcon from "./CartIcon";
+import CartItems from "./CartItems";
 
 const CartContainer = () => {
   return (
