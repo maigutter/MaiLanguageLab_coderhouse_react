@@ -23,6 +23,10 @@ body {
   flex-direction: column;
 }
 
+p {
+  width: fit-content;
+}
+
 .iconImage {
   width: 7vw;
   height: 7vh;
@@ -30,4 +34,14 @@ body {
 
 .pageTitle {
   margin: 3vh;
+}
+
+.center {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }

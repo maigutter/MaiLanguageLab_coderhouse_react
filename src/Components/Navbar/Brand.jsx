@@ -1,15 +1,15 @@
 import brandImage from "../../assets/logo.png";
 const Brand = (props) => {
   return (
-    <div>
-      <a className="navbar-brand" href="#">
+    <div className="navbar-brand center">
+      <a className="navbar-brand center" href="#">
         <img
           src={brandImage}
           alt="logo.MaiLanguageLab.1"
           className="iconImage"
         />
       </a>
-      <p>{props.BrandName}</p>
+      <p className="center">{props.BrandName}</p>
     </div>
   );
 };
