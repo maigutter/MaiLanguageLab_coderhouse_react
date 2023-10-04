@@ -5,7 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import CourseImage from "./assets/logo3.jpeg";
+import CourseImage from "../assets/logo3.jpeg";
 
 function CardShop({ id, Name, Category }) {
   return (
