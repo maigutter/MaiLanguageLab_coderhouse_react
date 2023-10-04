@@ -10,10 +10,8 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <GeneralTitle />
-      <PageTitle title="Cursos" />
-      <ItemListContainer greeting="You can find the different courses to buy here" />
       <Routes>
-        <Route exact path="/" element={<h1>HOME</h1>} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/coursesShop" element={<CoursesShop />} />
         <Route
           exact
