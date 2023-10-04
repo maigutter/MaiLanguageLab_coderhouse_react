@@ -1,5 +1,5 @@
-import ItemListContainer from "./Components/ItemListContainer";
-import PageTitle from "./Components/PageTitle";
+import ItemListContainer from "../Components/ItemListContainer";
+import PageTitle from "../Components/PageTitle";
 
 function CoursesShop() {
   return (
