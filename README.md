@@ -14,7 +14,11 @@ You can checkout [Coderhouse](https://www.coderhouse.com/) as well if you want t
 
 ## Cool! Is the project finished?
 
-Not yet! Right now you are seeing the **First Delivery** for the project.
+Not yet! Right now you are seeing the **Second Delivery** for the project.
+
+## Whats new?
+
+In the **Second Delivery** we are adding routes, hooks and much more!
 
 **Stay tuned! Much more is coming!**
 
@@ -46,7 +50,11 @@ También podés mirar la página de [Coderhouse](https://www.coderhouse.com/).
 
 ## ¡Piola! ¿Y el proyecto está terminado?
 
-¡No todavía! Ahora mismo estás viendo la **Primera preentrega** del proyecto.
+¡No todavía! Ahora mismo estás viendo la **Segunda preentrega** del proyecto.
+
+## ¿Qué hay de nuevo?
+
+En la **Segunda preentrega** estamos trabajando con Rutas, Hooks y mucho más.
 
 **¡Estate atente! ¡Se viene mucho más!**
 
