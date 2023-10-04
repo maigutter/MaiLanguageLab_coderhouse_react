@@ -12,7 +12,8 @@ const CoursesShop = () => {
         <ItemListContainer greeting="You can find the different courses to buy here" />
         {courses.map((course) => (
           <CardShop
-            Key={course.id}
+            key={course.id}
+            id={course.id}
             Name={course.title}
             Category={course.category}
             Description={course.description}

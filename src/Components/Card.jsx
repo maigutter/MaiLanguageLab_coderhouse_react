@@ -6,7 +6,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-function CardShop(Key, Name, Category, Description) {
+function CardShop({ id, Name, Category, Description }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
@@ -28,7 +28,7 @@ function CardShop(Key, Name, Category, Description) {
       </CardContent>
       <CardActions>
         <Button size="small">Buy</Button>
-        <Link to={`/coursesShop/${Key}`}>Learn More</Link>
+        <Link to={"/coursesShop/" + id}>Learn More</Link>
       </CardActions>
     </Card>
   );

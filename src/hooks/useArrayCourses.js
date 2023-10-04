@@ -7,7 +7,7 @@ const useArrayCourses = () => {
   useEffect(() => {
     getArrayCourses()
       .then((data) => data.json())
-      .then((data) => setCourses(data.results));
+      .then((data) => setCourses(data.CoursesArray));
   }, []);
 
   return {
