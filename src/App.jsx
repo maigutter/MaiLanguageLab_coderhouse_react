@@ -1,9 +1,10 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GeneralTitle from "./Components/GeneralTitle";
-import ItemListContainer from "./Components/ItemListContainer";
 import Navbar from "./Components/Navbar/Navbar";
-import PageTitle from "./Components/PageTitle";
+import CoursesDetail from "./layouts/CoursesDetail";
+import Home from "./layouts/Home";
+import CoursesShop from "./layouts/CoursesShop";
 
 function App() {
   return (

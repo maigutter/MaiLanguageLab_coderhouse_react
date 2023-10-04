@@ -2,6 +2,7 @@ import Brand from "./Brand";
 import CategoryItem from "./CategoryItem";
 import MenuButton from "./MenuButton";
 import CartWidget from "./Cart/CartWidget";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
