@@ -9,7 +9,7 @@ import CourseImage from "../assets/logo3.jpeg";
 
 function CardShop({ id, Name, Category }) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="marginsSpace" sx={{ maxWidth: 345 }}>
       <CardMedia component="img" alt="logo" height="140" image={CourseImage} />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">

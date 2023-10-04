@@ -10,15 +10,17 @@ const CoursesShop = () => {
       <>
         <PageTitle title="Cursos" />
         <ItemListContainer greeting="You can find the different courses to buy here" />
-        {courses.map((course) => (
-          <CardShop
-            key={course.id}
-            id={course.id}
-            Name={course.title}
-            Category={course.category}
-            Description={course.description}
-          />
-        ))}
+        <div className="container displaySpace">
+          {courses.map((course) => (
+            <CardShop
+              key={course.id}
+              id={course.id}
+              Name={course.title}
+              Category={course.category}
+              Description={course.description}
+            />
+          ))}
+        </div>
       </>
     );
   }

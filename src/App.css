@@ -49,3 +49,19 @@ p {
 .brandColorPink {
   background-color: #c5a9e9;
 }
+
+.displaySpace {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.marginsSpace {
+  margin: 2vh 2vw;
+  padding: 3vh 3vw;
+}
