@@ -14,8 +14,12 @@ function App() {
       <ItemListContainer greeting="You can find the different courses to buy here" />
       <Routes>
         <Route exact path="/" element={<h1>HOME</h1>} />
-        <Route exact path="/pokemons" element={<Pokemons />} />
-        <Route exact path="/pokemon/:pokemonName" element={<PokemonByName />} />
+        <Route exact path="/coursesShop" element={<CoursesShop />} />
+        <Route
+          exact
+          path="/coursesShop/:courseDetail"
+          element={<CoursesDetail />}
+        />
 
         <Route
           path="*"
