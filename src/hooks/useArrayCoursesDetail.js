@@ -6,9 +6,15 @@ const useArrayCoursesDetail = (course) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    getArrayCourses(course)
+    getArrayCourses()
       .then((data) => data.json())
-      .then((data) => setCourseID(data.CoursesArray.id))
+      .then((data) =>
+        setCourseID(
+          data.CoursesArray.find(
+            (courseData) => courseData.id === Number(course)
+          )
+        )
+      )
       .finally(() => setLoading(false));
   }, [course]);
 

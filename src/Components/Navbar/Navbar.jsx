@@ -7,7 +7,7 @@ import Navbar_Routes from "../../routes/Routes";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary displaySpace">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Brand BrandName="M.L.L." />
         <MenuButton />

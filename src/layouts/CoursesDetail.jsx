@@ -5,8 +5,8 @@ import useArrayCoursesDetail from "../hooks/useArrayCoursesDetail";
 import CardShopDetail from "../Components/CardDetail";
 
 function CoursesDetail() {
-  const { course } = useParams();
-  const { courseID, loading } = useArrayCoursesDetail(course);
+  const { courseDetail } = useParams();
+  const { courseID, loading } = useArrayCoursesDetail(courseDetail);
 
   if (loading) {
     return <h4>Loading...</h4>;
@@ -20,11 +20,11 @@ function CoursesDetail() {
       <PageTitle title="Detalle del Curso" />
       <ItemListContainer greeting="You can find the details of the course here" />
       <CardShopDetail
-        key={course.id}
-        id={course.id}
-        Name={course.title}
-        Category={course.category}
-        Description={course.description}
+        key={courseID.id}
+        id={courseID.id}
+        Name={courseID.title}
+        Category={courseID.category}
+        Description={courseID.description}
       />
     </>
   );
