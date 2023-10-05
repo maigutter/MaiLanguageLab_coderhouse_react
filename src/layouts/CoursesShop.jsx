@@ -10,7 +10,7 @@ const CoursesShop = () => {
       <>
         <PageTitle title="Cursos" />
         <ItemListContainer greeting="You can find the different courses to buy here" />
-        <div className="container displaySpace">
+        <div className="displaySpace">
           {courses.map((course) => (
             <CardShop
               key={course.id}
