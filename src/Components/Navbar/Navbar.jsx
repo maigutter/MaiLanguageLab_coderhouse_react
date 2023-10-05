@@ -12,9 +12,9 @@ const Navbar = () => {
         <Brand BrandName="M.L.L." />
         <MenuButton />
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 displaySpace">
             {Navbar_Routes.map((route) => (
-              <li key={route.path} className="nav-item">
+              <li key={route.path} className="nav-item marginsNav">
                 <NavLink
                   to={route.path}
                   className={({ isActive, isPending }) =>
