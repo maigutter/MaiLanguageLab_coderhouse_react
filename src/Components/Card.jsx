@@ -1,28 +1,42 @@
 import { Link } from "react-router-dom";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
+import {
+  Card,
+  Image,
+  Stack,
+  Heading,
+  Text,
+  Divider,
+  ButtonGroup,
+  Button,
+  CardBody,
+  CardFooter,
+} from "@chakra-ui/react";
 import CourseImage from "../assets/logo3.jpeg";
 
-function CardShop({ id, Name, Category }) {
+function CardShop({ id, Name, Category, Teacher, Price }) {
   return (
-    <Card className="marginsSpace" sx={{ maxWidth: 345 }}>
-      <CardMedia component="img" alt="logo" height="140" image={CourseImage} />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          {Name}
-        </Typography>
-        <Typography gutterBottom variant="h6" component="div">
-          {Category}
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Buy</Button>
-        <Link to={"/coursesShop/" + id}>Learn More</Link>
-      </CardActions>
+    <Card maxW="sm">
+      <CardBody>
+        <Image height="140" src={CourseImage} borderRadius="lg" />
+        <Stack mt="6" spacing="3">
+          <Heading size="md">{Name}</Heading>
+          <Text>
+            {Category} - Teacher: {Teacher}
+          </Text>
+          <Text color="blue.600" fontSize="2xl">
+            ${Price}
+          </Text>
+        </Stack>
+      </CardBody>
+      <Divider />
+      <CardFooter>
+        <ButtonGroup spacing="2">
+          <Button variant="solid" colorScheme="blue">
+            Add to cart
+          </Button>
+          <Link to={"/coursesShop/" + id}>Learn More</Link>
+        </ButtonGroup>
+      </CardFooter>
     </Card>
   );
 }

@@ -32,3 +32,15 @@ function App() {
 }
 
 export default App;
+
+/*import Category from "./layouts/Category";
+import Teacher from "./layouts/Teacher";
+import Cart from "./layouts/Cart";
+import Checkout from "./layouts/Checkout";
+import Register from "./layouts/Register";
+        <Route path="/category/:categoryName" element={<Category />} />
+        <Route path="/teacher/:teacherName" element={<Teacher />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/register" element={<Register />} />
+        */

@@ -8,12 +8,20 @@ const Navbar_Routes = [
     name: "Shop",
   },
   {
-    path: "/oneOnOneClasses",
-    name: "One on One Classes",
+    path: "/category/:categoryName",
+    name: "Types of classes",
   },
   {
-    path: "/contacto",
-    name: "Contacto",
+    path: "/teacher/:teacherName",
+    name: "Teachers",
+  },
+  {
+    path: "/checkout",
+    name: "Checkout",
+  },
+  {
+    path: "/register",
+    name: "Sing Up",
   },
 ];
 
